@@ -1,10 +1,20 @@
 # Il Nostro Workflow Git Semplificato 🌳
 
-|git push| D[Remote Repository]
-style A fill:#e6ffed
-style B fill:#fff5d1
-style C fill:#ffe5e5
-style D fill:#e6e6ff 
+flowchart TD
+    ReadMe[ReadMe Documentation] --> Guides[Guides]
+    ReadMe --> APIRef[API Reference]
+    
+    Guides --> Editor[Editor UI]
+    Editor --> Slash[Slash Commands]
+    Slash --> Mermaid[Mermaid Diagrams]
+    Slash --> Other[Other Blocks]
+    
+    APIRef --> OpenAPI[OpenAPI Spec]
+    APIRef --> Manual[Manual Editor]
+    
+    style ReadMe fill:#f9f,stroke:#333,stroke-width:4px
+    style Mermaid fill:#bbf,stroke:#333,stroke-width:2px
+
 
 ## I Soli Comandi Che Useremo 🛠️
 
