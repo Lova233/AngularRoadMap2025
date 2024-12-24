@@ -1,11 +1,10 @@
 # Il Nostro Workflow Git Semplificato 🌳
-```mermaid
+
 |git push| D[Remote Repository]
 style A fill:#e6ffed
 style B fill:#fff5d1
 style C fill:#ffe5e5
 style D fill:#e6e6ff 
-```
 
 ## I Soli Comandi Che Useremo 🛠️
 
